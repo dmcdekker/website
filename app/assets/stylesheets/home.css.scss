@@ -35,25 +35,31 @@ header.navbar.navbar-fixed-top.navbar-default{
   height: 60px;
 }
 
-.center.jumbotron {
+.center.jumbotron{
     width: 100%;
+    height: 650px;
+    position: relative;
+}
+
+.center.jumbotron{
+    z-index: -1;
     padding-top: 0px;
     background-size:cover;
     overflow: hidden;
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    background-image: url("sky.jpg.JPG");
+    background-image: url("sky.JPG");
     background-position: 0% 25%;
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
+    background-repeat:no-repeat;
 }
 
-
 .container-jumbotron{
-  margin-top: 150px;
-  size: 1.75em;
-  color: black;
+  width: 75%;
+  height: 60%;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 

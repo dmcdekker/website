@@ -74,15 +74,18 @@ p {
   }
 }
 
-
-
+header.navbar.navbar-fixed-top.navbar-default{
+  margin-bottom: 0px;
+  padding-top: 5px;
+  height: 60px;
+}
 
 /* footer */
 
 
 footer {
   background-color: black;
-  margin-top: 45px;
+  margin-top: 0px;
   padding-top: 5px;
 }
 
@@ -107,4 +110,31 @@ p#copyright{
   color: white;
   text-align: center;
   font-size: .95em;
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
 }
