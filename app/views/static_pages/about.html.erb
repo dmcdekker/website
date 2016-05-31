@@ -1,5 +1,22 @@
-<% provide(:title, "About") %>
-<h1>About</h1>
-<p>
-  This is all about D.M. Dekker
-</p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= stylesheet_link_tag "static_page", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+  </head>
+ 
+  <h1>About Denise</h1>
+  <div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <img src="denise_purple.jpg" alt="Denise Purple" style="width:250px;height:300px;">
+    </div>
+    <div class="span10">
+      <!--Body content-->
+    </div>
+  </div>
+</div>
+
+    
