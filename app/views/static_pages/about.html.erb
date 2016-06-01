@@ -7,16 +7,29 @@
     <%= csrf_meta_tags %>
   </head>
  
-  <h1>About Denise</h1>
-  <div class="container-fluid">
-  <div class="row-fluid">
-    <div class="image-thumbnail">
-        <%= image_tag("purple.jpg", :alt => "photo", :height => "325", :width => "200",)%>
+<section class="jumbotron text-xs-center">
+      <div class="container">
+        <h3 class="jumbotron-heading">About Denise</h3>
+      </div>
+    </section>  
+    <div class="row">
+        <div class="col-md-4">
+            <div class="img-fluid">
+                <%= image_tag("purple.jpg", :alt => "photo", :height => "325", :width => "200", :float => "left")%>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <p>Thanks for checking out my website! My name is Denise M. Dekker and I live in Oakland, California. 
+              Three years ago, I left a long career in sustainable agriculture to complete my bachelor's 
+              degree and will graduate from Mills College in May, 2017 with a B.A. in Computer Science. 
+              
+              I’m passionate about the convergence of design, usability, and user experience. My goal is to work 
+              as a web developer or front end engineer.
+              </p>
+            <h2></h2> 
+        </div>
     </div>
-    <div class="span10">
-      <!--Body content-->
-    </div>
-  </div>
 </div>
 
-    
+
+
