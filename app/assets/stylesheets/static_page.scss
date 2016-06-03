@@ -7,33 +7,10 @@
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
-  font-family: "Helvetica Neue";
 }
 
-h1 {
-  font-size: 2.4em;
-  margin-bottom: 30px;
-  text-align: center;
-}
 
-h2 {
-  font-size: 1.4em;
-  margin-bottom: 5px;
-  text-align: left;
-  font-weight: normal;
-}
 
-h3.jumbotron-heading {
-  font-size: 2.3em;
-  font-weight: normal;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-p {
-  font-size: 1.95em;
-  
-}
 
 .center.jumbotron{
     width: 100%;
@@ -65,10 +42,9 @@ p {
 
 
 div.row{
-    width: 95%;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .img-fluid{
@@ -86,9 +62,20 @@ div.col-md-4{
     margin-bottom: 30px;
     color: inherit;
     background-color: white;
+    h3{
+      text-align: center;
+    }
 }
 
 .col-md-8 p{
-  font-size: 1.60em;
+  margin-left: 15px;
+  font-size: 1.50em;
   text-align: justify;
+}
+
+.col-md-8 h2{
+  margin-left: 15px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
 }
