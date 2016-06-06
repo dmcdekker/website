@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
+/* About */
 
 .center.jumbotron{
     width: 100%;
@@ -78,4 +78,12 @@ div.col-md-4{
   margin-top: 40px;
   margin-bottom: 15px;
   letter-spacing: 2px;
+}
+
+/* Work */
+
+.card h2{
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
 }

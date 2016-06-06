@@ -75,13 +75,13 @@ p {
 }
 
 .navbar-default .navbar-brand {
-    color: black;
+    color: #666666;
     text-decoration:none;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 1.5em;
     &:hover {
-    color: blue;
+    color: #666666;
     text-decoration:none;
   }
 }
@@ -102,8 +102,8 @@ footer {
 }
 
 ul.social{
-  padding-top: 15px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
   width: 80%;
   text-align: center;
   margin: 0 auto;
