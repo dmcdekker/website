@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 div.row{
     margin-left: 25px;
     margin-right: 35px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 .img-fluid{
@@ -60,7 +60,7 @@ div.col-md-4{
 
 .jumbotron.text-xs-center {
     padding: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     color: inherit;
     background-color: white;
     h3{
@@ -89,4 +89,8 @@ div.col-md-4{
   text-align: center;
   font-family: "Helvetica Neue", normal;
   font-weight: normal;
+}
+
+.container-album{
+  margin-bottom: 80px;
 }
