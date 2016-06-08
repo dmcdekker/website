@@ -1,0 +1,50 @@
+/* work */
+/* line 4, /home/ubuntu/workspace/website/app/assets/stylesheets/work.scss */
+.center.jumbotron {
+  width: 100%;
+  height: 650px;
+  position: relative;
+}
+
+/* line 10, /home/ubuntu/workspace/website/app/assets/stylesheets/work.scss */
+.center.jumbotron {
+  z-index: -1;
+  padding-top: 0px;
+  background-size: cover;
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  background-image: url("sky.JPG");
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 24, /home/ubuntu/workspace/website/app/assets/stylesheets/work.scss */
+.container-jumbotron {
+  width: 75%;
+  height: 60%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* line 33, /home/ubuntu/workspace/website/app/assets/stylesheets/work.scss */
+div.row {
+  margin-left: 25px;
+  margin-right: 35px;
+  margin-bottom: 60px;
+}
+
+/* line 39, /home/ubuntu/workspace/website/app/assets/stylesheets/work.scss */
+.card h2 {
+  color: black;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: "Helvetica Neue", normal;
+  font-weight: normal;
+}
