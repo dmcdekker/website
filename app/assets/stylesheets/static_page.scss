@@ -42,14 +42,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 div.row{
-    margin-left: 40px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 35px;
     margin-bottom: 60px;
 }
 
 .img-fluid{
-  margin-left: 30px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 35px;
   width: 200px;
 }
 
@@ -86,4 +87,6 @@ div.col-md-4{
   color: black;
   letter-spacing: 1px;
   text-align: center;
+  font-family: "Helvetica Neue", normal;
+  font-weight: normal;
 }
