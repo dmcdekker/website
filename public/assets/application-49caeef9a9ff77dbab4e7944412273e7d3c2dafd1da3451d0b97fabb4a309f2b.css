@@ -1,0 +1,29 @@
+/*Application
+*/
+@media screen and (max-width: 767px) {
+  /* line 5, /home/ubuntu/workspace/website/app/assets/stylesheets/application.scss */
+  body {
+    font-size: 0.8em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 12, /home/ubuntu/workspace/website/app/assets/stylesheets/application.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 19, /home/ubuntu/workspace/website/app/assets/stylesheets/application.scss */
+  body {
+    font-size: 1.4em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 26, /home/ubuntu/workspace/website/app/assets/stylesheets/application.scss */
+  body {
+    font-size: 1.6em;
+  }
+}
