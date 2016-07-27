@@ -6,15 +6,18 @@
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
-  line-height: 1;
+  line-height: 1.2;
 }
 
+h1{
+  color: black;
+}
 
 /* About */
 
 .center.jumbotron{
     width: 100%;
-    height: 650px;
+    height: 550px;
     position: relative;
 }
 
@@ -26,10 +29,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0px;
     margin-top: 0px;
     padding-top: 0px;
-    background-image: url("sky.JPG");
+    background-image: url("sky_final.jpg");
     background-position: 0% 25%;
     background-size: cover;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
 }
 
 .container-jumbotron{
@@ -39,7 +42,6 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 }
-
 
 div.row{
     margin-left: 25px;
@@ -72,6 +74,7 @@ div.col-md-4{
   margin-left: 15px;
   font-size: 1.50em;
   text-align: justify;
+  line-height: 1.56em;
 }
 
 .col-md-8 h2{
@@ -94,3 +97,16 @@ div.col-md-4{
 .container-album{
   margin-bottom: 80px;
 }
+
+.col-xs-6 .col-lg-4 .card{
+  margin: 20px;
+}
+
+img.img-responsive{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+

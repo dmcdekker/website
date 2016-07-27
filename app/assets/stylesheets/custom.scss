@@ -75,6 +75,10 @@ p {
     overflow: visible !important;
 }
 
+.navbar-brand a{
+  text-decoration: none;
+}
+
 .navbar-collapse {
   background-color: white;
 }
@@ -124,23 +128,23 @@ p#copyright{
   font-size: 1.00em;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 499px) {
     body {
-        font-size: 0.9em;
+        font-size: 1.0em;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
     body {
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 }
 
