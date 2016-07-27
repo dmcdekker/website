@@ -44,8 +44,9 @@ h1{
 }
 
 div.row{
-    margin-left: 25px;
-    margin-right: 35px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 80px;
 }
 
@@ -54,6 +55,7 @@ div.row{
   margin-right: 20px;
   margin-bottom: 35px;
   width: 200px;
+  margin-top: 10px;
 }
 
 div.col-md-4{
@@ -71,14 +73,14 @@ div.col-md-4{
 }
 
 .col-md-8 p{
-  margin-left: 15px;
+  margin-left: 10px;
   font-size: 1.50em;
   text-align: justify;
   line-height: 1.56em;
 }
 
 .col-md-8 h2{
-  margin-left: 15px;
+  margin-left: 10px;
   margin-top: 40px;
   margin-bottom: 15px;
   letter-spacing: 2px;

@@ -3,6 +3,7 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+
 /* mixins, variables, etc. */
 
 $gray-medium-light: #eaeaea;
@@ -35,7 +36,7 @@ h1 {
   font-size: 2.0em;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Open Sans", normal;
+  font-family: "Open Sans", normal, sans-serif;
   font-weight: bold;
 }
 
@@ -44,7 +45,7 @@ h2 {
   margin-bottom: 10px;
   text-align: left;
   font-weight: bold;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 
@@ -54,12 +55,12 @@ h3{
   font-weight: normal;
   font-size: 3.0em;
   letter-spacing: 2px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-size: 1.06em;
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -126,32 +127,5 @@ p#copyright{
   color: white;
   text-align: center;
   font-size: 1.00em;
-}
-
-@media screen and (max-width: 499px) {
-    body {
-        font-size: 1.0em;
-    }
-}
-
-/* sm */
-@media screen and (min-width: 768px) {
-    body {
-        font-size: 0.9em;
-    }
-}
-
-/* md */
-@media screen and (min-width: 992px) {
-    body {
-        font-size: 1.1em;
-    }
-}
-
-/* lg */
-@media screen and (min-width: 1200px) {
-    body {
-        font-size: 1.3em;
-    }
 }
 
