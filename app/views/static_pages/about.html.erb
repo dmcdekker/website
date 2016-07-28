@@ -5,6 +5,7 @@
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <% provide(:title, "About") %>
   </head>
  
 <section class="jumbotron text-xs-center">
@@ -14,9 +15,7 @@
     </section>  
     <div class="row">
         <div class="col-md-4">
-            <div class="img-fluid">
-                <%= image_tag("purple.jpg", :alt => "photo", :height => "325", :width => "200", :float => "left")%>
-            </div>
+                <%= image_tag("purple.jpg")%>
         </div>
         <div class="col-md-8">
             <p>Originally from Edinburgh, Scotland, my name is Denise M. Dekker and I have lived in the Bay Area since 1994.
@@ -29,7 +28,7 @@
                I’m passionate about the convergence of design, usability, and user experience. My goal upon graduating 
                is to work as a Front End Engineer or Developer.
               </p>
-               
+              <br> 
             <h2>EDUCATION</h2> 
             <p> Mills College, Oakland, CA: Bachelor of Arts, Computer Science (Expected May 2017).</p>   
             <p> Academic Honors: Phi Theta Kappa Scholarship and Dean’s Scholarship.</p> 

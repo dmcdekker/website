@@ -5,7 +5,9 @@
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <% provide(:title, "Work") %>
   </head>
+<body> 
 <div class="container-album">
     <section class="jumbotron text-xs-center">
       <div class="container">
@@ -16,7 +18,7 @@
      <div class="album text-muted"    
       <div class="row">
         <div class="col-xs-6 col-lg-4 card">
-          <img data-src="assets/sisterweb.jpg" alt="sisterweb" class="img-responsive" src="assets/sisterweb.jpg" data-holder-rendered="true" style="height: auto; width: 100%; display: block;">
+          <a href="/sisterweb"><img data-src="assets/sisterweb.jpg" alt="sisterweb" class="img-responsive" src="assets/sisterweb.jpg" data-holder-rendered="true" style="height: auto; width: 100%; display: block;"></a>
                 <h2>SisterWeb</h2>  
                 <p class="card-text"></p>
         </div><!--/span-->
@@ -38,4 +40,4 @@
       </div><!--/row-->
     </div><!--/span-->
 </div>
-
+</body> 

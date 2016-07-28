@@ -7,4 +7,7 @@ class StaticPagesController < ApplicationController
 
   def work
   end
+  
+  def sisterweb
+  end
 end
