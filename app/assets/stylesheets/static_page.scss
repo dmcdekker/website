@@ -68,6 +68,8 @@ p {
     background-repeat: no-repeat;
 }
 
+/* About */
+
 .container-jumbotron{
   width: 75%;
   height: 60%;
@@ -112,8 +114,6 @@ div.col-md-8 p{
 
 /* Work */
 
-
-
 .jumbotron.text-xs-center {
     padding: 30px;
     margin-bottom: 10px;
@@ -150,4 +150,9 @@ div.col-xs-6.col-lg-4.card p{
 
 div.col-xs-6.col-lg-4.card img.img-responsive{
   border: 1px solid #cccccc;
+}
+
+img.img-responsive{
+  width: 440px;
+  height: 219px;
 }

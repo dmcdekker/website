@@ -16,10 +16,10 @@ h1 {
   font-weight: bold;
 }
 
-h2 {
+.intro h2 {
   font-size: 1.6em;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: center;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
@@ -58,4 +58,10 @@ div.row{
   line-height: 1.55em;
   font-family: "Open Sans", sans-serif;
   text-align: justify;
+}
+
+img.img-responsive{
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
