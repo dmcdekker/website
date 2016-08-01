@@ -2,6 +2,7 @@
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
+  color: #4d4d4d;
 }
 
 h1{
@@ -9,6 +10,7 @@ h1{
 }
 
 h1 {
+  color: #4d4d4d;
   font-size: 2.0em;
   margin-bottom: 30px;
   text-align: center;
@@ -17,11 +19,15 @@ h1 {
 }
 
 .intro h2 {
+  color: #4d4d4d;
   font-size: 1.6em;
+  line-height: 1.65em;
+  letter-spacing: 1px;
   margin-bottom: 10px;
   text-align: center;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 
@@ -30,7 +36,6 @@ h3{
   text-align: center;
   font-weight: normal;
   font-size: 3.0em;
-  letter-spacing: 2px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -42,6 +47,8 @@ h3{
     color: inherit;
     background-color: white;
     h3{
+      letter-spacing: 1px;
+      color: #4d4d4d;
       text-align: center;
     }
 }
@@ -65,3 +72,40 @@ img.img-responsive{
   margin-left: auto;
   margin-right: auto;
 }
+
+/* SisterWeb */
+
+div.button{
+  margin-top: 40px;
+  text-align: center;
+}
+
+/*Application
+*/
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.8em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.6em;
+    }
+}
+
