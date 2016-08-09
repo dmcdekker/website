@@ -89,7 +89,7 @@ p {
 a {
     color: #666666;
     &:hover {
-    color: #3F4345;
+    color: #3d4143;
   }
 }
 
@@ -106,6 +106,8 @@ footer {
   background-color: black;
   margin-top: 0px;
   padding-top: 5px;
+  width: 100%;
+  padding: 0px;
 }
 
 ul.social{
