@@ -37,11 +37,11 @@ div.row{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 div.col-md-4{
-  width: 33%;
+  width: 29%;
   text-align: center;
   padding: 0px;
   margin-left: auto;
@@ -56,7 +56,7 @@ div.col-md-4{
 }
 
 div.col-md-8{
-  width: 66%;
+  width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -122,28 +122,28 @@ div.col-lg-4 .card .img{
 
 @media screen and (max-width: 767px) {
     body {
-        font-size: 0.8em;
+        font-size: 90%;
     }
 }
 
 /* sm */
 @media screen and (min-width: 768px) {
     body {
-        font-size: 1.2em;
+        font-size: 100%;
     }
 }
 
 /* md */
 @media screen and (min-width: 992px) {
     body {
-        font-size: 1.4em;
+        font-size: 120%;
     }
 }
 
 /* lg */
 @media screen and (min-width: 1200px) {
     body {
-        font-size: 1.6em;
+        font-size: 140%;
     }
 }
 
