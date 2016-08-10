@@ -53,7 +53,7 @@ h3{
 }
 
 div.row{
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
@@ -68,6 +68,7 @@ div.row{
 
 img.img-responsive{
   margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -88,5 +89,39 @@ a.button {
     color: #3d4143;
     text-decoration: none;
   }
+}
+
+div.col-lg-6{
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.4em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.6em;
+    }
 }
 

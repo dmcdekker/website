@@ -11,6 +11,8 @@ $gray-medium-light: #eaeaea;
 /* universal */
 
 body {
+  font-size: 16px;
+  line-height: 20px;
   padding-top: 60px;
 }
 
@@ -33,7 +35,7 @@ textarea {
 
 
 h1 {
-  font-size: 2.0em;
+  font-size: 200%;
   margin-bottom: 30px;
   text-align: center;
   font-family: "Open Sans", normal, sans-serif;
@@ -41,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 135%;
   margin-bottom: 10px;
   color: #4d4d4d;
   text-align: left;
@@ -55,14 +57,15 @@ h3{
   color: #4d4d4d;
   text-align: center;
   font-weight: normal;
-  font-size: 2.6em;
+  font-size: 210%;
   letter-spacing: 1px;
   font-family: "Montserrat", sans-serif;
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 100%;
   font-family: "Open Sans", sans-serif;
+  line-height: 110%;
 }
 
 
@@ -137,7 +140,7 @@ p#copyright{
 
 /*Application
 */
-@media screen and (min-width: 544px) {
+@media screen and (max-width: 767px) {
     body {
         font-size: 0.9em;
     }
