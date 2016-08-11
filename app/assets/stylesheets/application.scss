@@ -1,5 +1,18 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
 /*Application
 */
+
+
+body {
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 60px;
+}
+
 
 @media screen and (max-width: 767px) {
     body {
@@ -27,4 +40,14 @@
         font-size: 1.6em;
     }
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+    -webkit-transition-delay: 9999s;
+}      
+
+     
 

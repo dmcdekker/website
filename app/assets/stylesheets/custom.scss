@@ -1,8 +1,3 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
-
 
 /* mixins, variables, etc. */
 
@@ -14,7 +9,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   padding-top: 60px;
-  
 }
 
 section {
@@ -60,13 +54,13 @@ h3{
   font-weight: normal;
   font-size: 210%;
   letter-spacing: 1px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat",sans-serif;
   padding-bottom: 20px;
 }
 
 p {
   font-size: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans",sans-serif;
   line-height: 110%;
 }
 
@@ -131,6 +125,32 @@ a{
  }  
 }
 }
+
+a i.fa.fa-facebook.icon-2x{
+  &:hover{
+    color: #0000ff;
+  }
+}
+
+a i.fa.fa-instagram.icon-2x{
+  &:hover{
+    color: #ff1aff;
+  }
+}
+
+a i.fa.fa-linkedin.icon-2x{
+  &:hover{
+    color: #6666ff;
+  }
+}
+
+a i.fa.fa-twitter.icon-2x{
+  &:hover{
+    color: #6699ff;
+  }
+}
+
+
 
 p#copyright{
   padding-bottom: 45px;
