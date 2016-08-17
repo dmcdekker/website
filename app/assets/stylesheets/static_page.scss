@@ -55,7 +55,10 @@ div.col-md-4{
 
 
 .col-md-4 img.image-responsive{
-  margin-top: 7px;
+  padding: 1px;
+  border: 10px solid white;
+  background-color: #cccccc;
+  margin-top: 5px;
   margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
@@ -106,14 +109,14 @@ div.col-md-8 p{
   line-height: 1.25em;
   text-align: center;
   text-transform: uppercase;
-  color: #d9d9d9;
+  color: #e8e8e8;
 }
 
 
 .card img.img-responsive{
   padding: 1px;
-  border: 7px solid white;
-  background-color: #cccccc;
+  border: 8px solid white;
+  background-color:  #e8e8e8;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
