@@ -52,6 +52,8 @@ div.col-md-4{
   margin-right: auto;
 }
 
+
+
 .col-md-4 img.image-responsive{
   margin-top: 7px;
   margin-bottom: 40px;
@@ -85,7 +87,7 @@ div.col-md-8 p{
     }
 }
 
-div.col-xs-6.col-lg-4.card h2{
+.card h2{
   font-size: 1.3em;
   line-height: 1.65em;
   color: #8c8c8c;
@@ -99,7 +101,7 @@ div.col-xs-6.col-lg-4.card h2{
   text-transform: uppercase;
 }
 
-div.col-xs-6.col-lg-4.card p{
+.card p{
   font-size: 1.2em;
   line-height: 1.25em;
   text-align: center;
@@ -108,19 +110,21 @@ div.col-xs-6.col-lg-4.card p{
 }
 
 
-div.col-xs-6.col-lg-4.card img.img-responsive{
-  border: 1px solid #cccccc;
+.card img.img-responsive{
+  padding: 1px;
+  border: 7px solid white;
+  background-color: #cccccc;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-div.col-xs-6.col-lg-4.card{
+.card{
   padding: 0px;  
 }
 
 
-div.col-lg-4 .card .img{
+.card .img{
   float: center;
 }
 
