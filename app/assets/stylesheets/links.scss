@@ -21,7 +21,7 @@ h1 {
 
 
 .intro h2 {
-  color: #4d4d4d;
+  color: #262626;
   font-size: 120%;
   line-height: 1.65em;
   letter-spacing: 1px;
@@ -34,6 +34,7 @@ h1 {
 
 
 h3{
+  color: #262626;
   margin-bottom: 10px;
   text-align: center;
   font-weight: normal;
@@ -42,17 +43,7 @@ h3{
 
 
 
-.jumbotron.text-xs-center {
-    padding: 30px;
-    margin-bottom: 10px;
-    color: inherit;
-    background-color: white;
-    h3{
-      letter-spacing: 1px;
-      color: #4d4d4d;
-      text-align: center;
-    }
-}
+
 
 div.row{
     width: 80%;
@@ -70,7 +61,7 @@ div.row{
 
 img.img-responsive{
   padding: 1px;
-  border: 7px solid white;
+  border: 12px solid white;
   background-color: #cccccc;
   margin-top: 20px;
   margin-bottom: 10px;
