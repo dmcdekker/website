@@ -4,7 +4,7 @@
     <% provide(:title, "Typography") %>
     <%= stylesheet_link_tag "links", media: "all",
                                            "data-turbolinks-track" => true %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "custom", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     
       
@@ -40,22 +40,44 @@
                   and Constructivists. Each design is a full page spread made with Fabriano paper.</p>
                 <br>
                   <div class="row">
-                    <div class="booklet">
-                      <div class="row-fluid">
-          
-                        <div class="col-lg-6"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463621/listen2_ew4u7f.jpg" alt="home" class="img-responsive" data-holder-rendered="true" style="height: 120%; width: 120%;"></div>
-                    
-                        <div class="col-lg-6"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/experiment_uxk08m.jpg" alt="home" class="img-responsive" data-holder-rendered="true" style="height: 120%; width: 120%;"></div>
-                      
-                        <div class="col-lg-6"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/question_dxgccr.jpg" class="img-responsive" data-holder-rendered="true" style="height: 120%; width: 120%;"></div>
-                      
-                        <div class="col-lg-6"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/x_xtpalx.jpg" alt="home" class="img-responsive" data-holder-rendered="true" style="height: 120%; width: 120%;"></div>
-                      
-                        <div class="col-lg-6"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/mistake_m46qkb.jpg" alt="home" class="img-responsive" data-holder-rendered="true" style="height: 120%; width: 120%;"></div>
-                      
-                      </div>  
+                    <div class="col-lg-6">
+                      <a href="#"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463621/listen2_ew4u7f.jpg" alt="home" class="thumbnail img-responsive"></a>
+                      </div>
+                
+                    <div class="col-lg-6">
+                      <a href="#"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/experiment_uxk08m.jpg" alt="home" class="thumbnail img-responsive"></a>
+                      </div>
+                  
+                    <div class="col-lg-6">
+                      <a href="#"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/question_dxgccr.jpg" class="thumbnail img-responsive"></a>
+                      </div>
+                  
+                    <div class="col-lg-6">
+                      <a href="#"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/x_xtpalx.jpg" alt="home" class="thumbnail img-responsive"></a>
+                      </div>
+                  
+                    <div class="col-lg-6"><a href="#"><img src="http://res.cloudinary.com/dmcdekker/image/upload/v1471463622/mistake_m46qkb.jpg" alt="home" class="thumbnail img-responsive"></a>
                     </div>
-                  </div>  
+                </div>  
+                     
+      <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <button class="close" type="button" data-dismiss="modal">×</button>
+    	<div class="modal-body">
+    		<div id="modalCarousel" class="carousel" data-slide-to="1">
+              <div class="carousel-inner"></div>
+              <a class="carousel-control left" href="#modalCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+              <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                
+            </div>
+            
+    	</div>
+    	
+      </div>
+      </div>
+    </div>
+                    </div>
+                </div>
             </div>      
           </div>              
     </div>

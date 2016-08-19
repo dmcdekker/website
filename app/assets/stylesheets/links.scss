@@ -101,8 +101,16 @@ div.col-lg-6{
 
 /* Links */
 
-.col-lg-3 .col-sm-4 .col-6{
-  text-align: center;
+.carousel-control.left,.carousel-control.right{
+  background-image:none;
+  
+}
+
+.glyphicon{
+  opacity: 0;
+  &:hover{
+    opacity: 50;
+  }
 }
 
 

@@ -16,6 +16,8 @@ $('.row .thumbnail').on('load', function(e) {
   }
 });
 
+
+
 /* activate the carousel */
 $('#modalCarousel').carousel({interval:false});
 
