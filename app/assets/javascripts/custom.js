@@ -1,5 +1,5 @@
 /* copy loaded thumbnails into carousel */
-$('.row .thumbnail').on('load', function(e) {
+$('.row .thumbnail').on('load', function() {
   
 }).each(function(i) {
   if(this.complete) {
@@ -16,27 +16,21 @@ $('.row .thumbnail').on('load', function(e) {
   }
 });
 
-
-
 /* activate the carousel */
 $('#modalCarousel').carousel({interval:false});
 
 /* change modal title when slide changes */
-$('#modalCarousel').on('slid.bs.carousel', function (e) {
+$('#modalCarousel').on('slid.bs.carousel', function () {
   $('.modal-title').html($(this).find('.active').attr("title"));
 })
 
 /* when clicking a thumbnail */
 $('.row .thumbnail').click(function(e){
-    e.preventDefault(); 
+    e.preventDefault();
     var idx = $(this).parents('div').index();
   	var id = parseInt(idx);
   	$('#myModal').modal('show'); // show the modal
     $('#modalCarousel').carousel(id); // slide carousel to selected
   	
 });
-
-
-
-
 
