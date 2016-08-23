@@ -115,6 +115,10 @@ button.close{
 }
 
 
+.modal-backdrop.in {
+	opacity: 0.16 !important;
+}
+
 
 @media screen and (max-width: 767px) {
     body {

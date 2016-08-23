@@ -1,0 +1,155 @@
+/* typography */
+/* line 6, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #4d4d4d;
+}
+
+/* line 10, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.page-header {
+  border-bottom: none;
+}
+
+/* line 14, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h1 {
+  font-size: 2.0em;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Open Sans", normal, sans-serif;
+  font-weight: bold;
+}
+
+/* line 24, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.intro h2 {
+  color: #262626;
+  font-size: 120%;
+  line-height: 1.65em;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 37, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h3 {
+  color: #262626;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 49, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+/* line 56, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.intro p {
+  font-size: 1.10em;
+  line-height: 1.35em;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 63, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+img.img-responsive {
+  padding: 1px;
+  border: 12px solid white;
+  background-color: #cccccc;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* SisterWeb */
+/* line 75, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.button {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+/* line 83, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+a.button {
+  color: #000;
+  border-radius: 50px;
+  border: 1px solid #000;
+  padding: 7px;
+  background-color: #fff;
+}
+/* line 89, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+a.button:hover {
+  color: #939393;
+  text-decoration: none;
+  border: 1px solid #939393;
+}
+
+/* line 96, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.col-lg-6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Links */
+/* line 105, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+/* line 110, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.left {
+  margin-left: -100px;
+  color: white;
+}
+
+/* line 111, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.right {
+  margin-right: -100px;
+  color: white;
+}
+
+/* line 113, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+button.close {
+  color: black;
+  padding-bottom: 5px;
+}
+
+/* line 119, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.modal-backdrop.in {
+  opacity: 0.16 !important;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 125, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 132, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 139, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.4em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 146, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.6em;
+  }
+}

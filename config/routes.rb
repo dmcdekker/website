@@ -4,10 +4,11 @@ Rails.application.routes.draw do
   root             'static_pages#home'
   get '/about'   => 'static_pages#about'
   get '/work' => 'static_pages#work'
-  get  '/work/sisterweb' => 'work#sisterweb'
-  get  '/work/typography' => 'work#typography'
-  get  '/work/maps' => 'work#maps'
-  get  '/work/ux' => 'work#ux'
+  get  'work/sisterweb' => 'work#sisterweb'
+  get  'work/typography' => 'work#typography'
+  get  'work/maps' => 'work#maps'
+  get  'work/ux' => 'work#ux'
+  
   
 
   # The priority is based upon order of creation: first created -> highest priority.
