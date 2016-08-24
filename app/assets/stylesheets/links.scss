@@ -43,8 +43,6 @@ h3{
 
 
 
-
-
 div.row{
     width: 80%;
     margin-left: auto;
@@ -109,11 +107,21 @@ div.col-lg-6{
 .carousel-control.left {margin-left: -100px; color: white;}
 .carousel-control.right {margin-right: -100px; color: white;}
 
-button.close{
-  color: black;
-  padding-bottom: 5px;
+.btn{
+  padding: 2px 5px;
+  font-size: 14px;
 }
 
+button.btn.btn-secondary{
+  float: right;
+  &:hover{
+  color: white;
+  }
+}
+
+.carousel-inner .item img{
+  margin-right: 0px;
+}
 
 .modal-backdrop.in {
 	opacity: 0.16 !important;
