@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
+gem 'leaflet-rails'
 gem 'jquery-turbolinks'
 gem 'normalize-rails'
 gem 'font-awesome-sass'
