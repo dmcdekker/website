@@ -2715,4 +2715,3 @@ var mymap = L.map('mapid').setView([37.800, -122.241], 15);
     clusters.addLayer(planes);
     mymap.addLayer(clusters);
     
-//= require leaflet
