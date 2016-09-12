@@ -14,5 +14,9 @@ Rails.application.config.assets.precompile += %w( static_page.css )
 Rails.application.config.assets.precompile += %w( application.css )
 Rails.application.config.assets.precompile += %w( links.css )
 Rails.application.config.assets.precompile += %w( custom.js )
+<<<<<<< HEAD
 Rails.application.config.assets.precompile += %w( markerCluster.css )
 Rails.application.config.assets.precompile += %w( maps.js )
+=======
+Rails.application.config.assets.precompile += %w( MarkerCluster.css )
+>>>>>>> f5987d28129b14ab1486b3be0c3faf258a8f1248
