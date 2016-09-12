@@ -1,4 +1,3 @@
-
 /* mixins, variables, etc. */
 
 $gray-medium-light: #dcdcdc;
@@ -10,6 +9,7 @@ body {
   font-size: 16px;
   line-height: 30px;
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: white;
 }
 
@@ -35,16 +35,16 @@ h1 {
   font-size: 200%;
   margin-bottom: 30px;
   text-align: center;
-  font-family: "Open Sans", normal, sans-serif;
-  font-weight: bold;
+  font-family: "Roboto", normal, sans-serif;
+  font-weight: 550;
 }
 
 h2 {
   font-size: 120%;
+  line-height: 150%;
   margin-bottom: 10px;
   text-align: left;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -54,15 +54,15 @@ h3{
   color: #262626;
   text-align: center;
   font-weight: normal;
-  font-size: 210%;
-  letter-spacing: 1px;
-  
+  font-size: 240%;
+  letter-spacing: 2px;
   padding-bottom: 20px;
 }
 
+
 h4{
   font-size: 90%;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Roboto",sans-serif;
   line-height: 120%;
   font-weight: normal;
   text-align: center;
@@ -78,6 +78,7 @@ p {
   font-weight: 300;
   text-align: justify;
   color: #000;
+   color: #262626;
   margin-bottom: 20px;
 }
 
@@ -131,8 +132,7 @@ header.navbar.navbar-default.navbar-fixed-top{
 
 footer {
   background-color: black;
-  margin-top: 0px;
-  padding-top: 5px;
+  padding-top: 0px;
   width: 100%;
   padding: 0px;
 }
@@ -216,4 +216,3 @@ p#copyright{
         font-size: 1.7em;
     }
 }
-

@@ -2,11 +2,13 @@
 <html>
   <head>
     <% provide(:title, "Maps") %>
-    <%= stylesheet_link_tag "links", media: "all",
+    <%= stylesheet_link_tag "markerCluster", media: "all",
                                            "data-turbolinks-track" => true %>
-    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "maps", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="markerCluster.css"/>
    </head>
    
    <body>
@@ -14,24 +16,20 @@
           <div class="page-header">
             <h3>Maps</h3>
           </div>
-        <div class="row">
-            <div class="intro">
-                <h2>GIS</h2>     
-                    <p>Using Leaflet and QGIS, I created maps of Madrid, Oakland poverty levels, and mapped data from Oakland's shotspotters using data scraped from https://www.openoakland.org/projects/.
-                     
-                    </p>
-            <br>
-                
-                
-                    
-                        
-            </div>
-                <div class="button">
-                    <a class="button" href="http://soc128-2016.wikidot.com/ddd:home" title="Maps" target="_blank">Visit Website <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
+            <div class="row">
+                <div class="intro">
+                    <div id="mapid">
+                     <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
+                     <script src="leaflet.markercluster.js"></script>
+                     </script>
                     </div>
+                </div>
              </div>
-     </div> 
- </body>
+        </div>     
+   </body>
+ <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+ <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+ <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/0.4.0/leaflet.markercluster.js'></script>
 </html>   
     
     
