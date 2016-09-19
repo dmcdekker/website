@@ -2,14 +2,14 @@
 <html>
   <head>
     <% provide(:title, "Maps") %>
-    <%= stylesheet_link_tag "markerCluster", media: "all",
+    <%= stylesheet_link_tag "links", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "maps", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
 
-    <link rel="stylesheet" href="markerCluster.css"/>
+    
 
    </head>
    
@@ -20,12 +20,27 @@
           </div>
             <div class="row">
                 <div class="intro">
+                    <p>For this map project, I scraped data from OPD's website. Shotspotters in Oakland detect and locate
+                gunfire; their use is contentious and locations secretive. In 2014, OPD considered getting rid of them. The data represented
+                in these map is from 2013 (the most complete year available when I scraped the data), which did not differentiate gunshots
+                from firecrackers. For more information about Oakland's Shotspotters click <a href="https://localwiki.org/oakland/ShotSpotter">here.</a></p>
+                <br>
+              
+                    <p>Using QGIS, a map making program, the first map I created, a chloropleth, mapped gunshotes alongside liquor stores (represented by black dots).</p>
+                    <br>
+                    <div class="image-responsive">
+                        <img src="http://res.cloudinary.com/dmcdekker/image/upload/v1474312831/oak_shotspotter_liqur_store_udgtyh.png" alt="oak_liquor" class="image-responsive" data-holder-rendered="true" style="height: auto; width: auto; display: block; margin-left: auto; margin-right: auto">
+                    </div>
+                    <br>
+                    <br>
+                    <p>The second map shows the locations of each gunshot recorded; click on the pin to see the time and date. Warning: this
+                    map loads slowly! I used Leaflet to make this map.</p>
+                    
                     <div id="mapid">
                      <script src="http://cdn.leafletjs.com/leaflet-0.7/leaflet.js"></script>
-                     <script src="leaflet.markercluster.js"></script>
-                     </script>
                     </div>
                 </div>
+                
              </div>
         </div>     
    </body>
