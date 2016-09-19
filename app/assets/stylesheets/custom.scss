@@ -88,13 +88,15 @@ p {
 
 
 .navbar-default {
+    text-align: center;
     background-color: #181818;
     border-color: #181818;
 }
 
-.nav-collapse.collapse {
+.navbar-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+    
 }
 
 .navbar-brand a{
@@ -103,6 +105,9 @@ p {
 
 .navbar-collapse {
   background-color: #181818;
+  width: 30%;
+  float: right;
+  border: none;
 }
 
 ul.navbar-nav.navbar-right a{
@@ -191,6 +196,10 @@ p#copyright{
 /*Application
 */
 @media screen and (max-width: 767px) {
+  .navbar .nav-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
     body {
         font-size: 1.4em;
     }
