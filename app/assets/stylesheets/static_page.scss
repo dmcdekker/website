@@ -160,7 +160,7 @@ div.col-md-8 p{
 }
 
 .hovereffect:hover .overlay {
-  opacity: 1;
+  opacity: .80;
   filter: alpha(opacity=100);
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -202,7 +202,7 @@ div.col-md-8 p{
   text-align: center;
   letter-spacing: 2px;
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   padding: 1em 0;
   opacity: 0;
   font-weight: 100;
@@ -211,7 +211,7 @@ div.col-md-8 p{
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,100%,0);
   transform: translate3d(0,100%,0);
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
