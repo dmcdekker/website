@@ -25,11 +25,19 @@
 /* About */
 
 .container-jumbotron{
-  width: 75%;
+  width: 80%;
   height: 60%;
   margin: auto;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
+}
+
+h1 {
+  font-size: 180%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Roboto", normal, sans-serif;
+  font-weight: 550;
 }
 
 .page-header{
@@ -110,6 +118,19 @@ div.col-md-8 p{
   color: #e8e8e8;
 }
 
+h5{
+  font-size: 120%;
+  line-height: 150%;
+  margin-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+}
 
 
 .card img.img-responsive{
@@ -225,6 +246,8 @@ img.image-responsive{
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 @media screen and (max-width: 767px) {
     body {

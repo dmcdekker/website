@@ -111,14 +111,31 @@ p {
 }
 
 ul.navbar-nav.navbar-right a{
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: light;
+  font-size: 13px;
+  letter-spacing: .5px;
   color: #dcdcdc;
   &:hover {
     color: #ababab;
   }
 }
 
+logo.navbar-brand a{
+  color: #dcdcdc ;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: light;
+  letter-spacing: 1px;
+  &:hover {
+    color: #ababab;
+  }
+}
+
 a {
-    color: #cccccc;
+    color: #808080;
+    text-decoration: none;
     &:hover {
     color: #ababab;
   }
@@ -139,7 +156,7 @@ footer {
   background-color: black;
   padding-top: 0px;
   width: 100%;
-  padding: 0px;
+  padding-bottom: auto;
 }
 
 ul.social{
@@ -185,7 +202,7 @@ a i.fa.fa-twitter.icon-2x{
 
 
 p#copyright{
-  padding-bottom: 45px;
+  padding-bottom: 30px;
   color: #cccccc;
   text-align: center;
   font-size: 0.60em;
