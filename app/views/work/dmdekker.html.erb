@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <% provide(:title, "SisterWeb") %>  
+    <%= stylesheet_link_tag "links", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    
+  
+  </head>
+  <body>
+      <div class="container">
+          <div class="page-header">
+            <h3>dmdekker.io</h3>
+          </div>
+        <div class="row">
+            <div class="intro">
+                <h2>Project</h2>     
+                    <p>As an newbie developer on the verge of graduating, I made an online portfolio for my work using Ruby on Rails via Cloud 9, and deplying to
+                    Heroku for hosting. My website is hosted by Google Web Services. I like the clean aesthetic that Bootstrap delivers,
+                    which was in line with my desire to have a simple, yet elegant, website.
+                    </p>
+            <br>
+                
+                <h2>Challenges</h2>
+                    <p>While making the main static pages, there was a flickering (sometimes known as FOUC: Flash Of Unstyled Content) that
+                    was hard to troubleshoot. After poking around on Stackoverflow and trying many unsuccessful remedies, I found a solution
+                    that recommended removing Turbolinks from my Rails application. More information regarding Turbolinks can
+                    be found <a href="http://cobwwweb.com/turbolinks-not-worth-the-effort">here.</a></p>
+                    <p>Formatting for mobile also presented challenges, but Bootstrap's responsive features made styling for multiple devices
+                    much easier than. Additionally, the maps page could be improved upon; the Leaflet map could run more efficiently, but I 
+                    haven't yet been able to make the markers cluster work on Rails.</p>
+            <br>
+                <h2>Tools Used</h2>
+                    <p>Ruby on Rails, CSS, HTML5, Cloud 9, Heroku, and Bootstrap.
+                    our site.</p>
+            <br>
+                <h2>Final Result</h2>
+                    <p>I'm happy with the final result; it conveys a good sense of my aesthetic and showcases my emerging 
+                    developer sensibilities and skillset. Press the button below to connect to my GitHub repository.</p>
+            <br>
+          
+                <div class="button">
+                    <a class="button" href="https://github.com/dmcdekker/website" title="github" target="_blank">Visit GitHub<span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
+                    </div>  
+                        
+            </div>
+                
+             </div>
+     </div> 
+ </body>
+</html> 
+  
+  
