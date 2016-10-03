@@ -2711,7 +2711,7 @@ var mymap = L.map('mapid').setView([37.800, -122.241], 15);
         .addTo(mymap);
     }
         
-    var clusters = L.markerClusterGroup();
-    clusters.addLayer(planes);
+    var clusters = new L.markerClusterGroup();
+    clusters.addLayer(markers);
     mymap.addLayer(clusters);
     
