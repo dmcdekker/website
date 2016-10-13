@@ -40,6 +40,7 @@ GEM
     arel (6.0.3)
     autoprefixer-rails (6.3.6.1)
       execjs
+    aws_cf_signer (0.1.3)
     binding_of_caller (0.7.3.pre1)
       debug_inspector (>= 0.0.1)
     bootstrap-sass (3.2.0.0)
@@ -49,6 +50,9 @@ GEM
       columnize (~> 0.8)
       debugger-linecache (~> 1.2)
       slop (~> 3.6)
+    cloudinary (1.2.3)
+      aws_cf_signer
+      rest-client
     coderay (1.1.1)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -61,6 +65,8 @@ GEM
     concurrent-ruby (1.0.2)
     debug_inspector (0.0.2)
     debugger-linecache (1.2.0)
+    domain_name (0.5.20160826)
+      unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.10)
@@ -83,6 +89,8 @@ GEM
       minitest (>= 3.0)
     haml (4.0.7)
       tilt
+    http-cookie (1.0.3)
+      domain_name (~> 0.5)
     i18n (0.7.0)
     jbuilder (2.2.3)
       activesupport (>= 3.0.0, < 5)
@@ -123,6 +131,7 @@ GEM
       ruby-progressbar
     multi_json (1.12.1)
     nenv (0.3.0)
+    netrc (0.11.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     normalize-rails (4.1.1)
@@ -172,6 +181,10 @@ GEM
       ffi (>= 0.5.0)
     rdoc (4.2.2)
       json (~> 1.4)
+    rest-client (2.0.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     ruby-progressbar (1.8.1)
     ruby_dep (1.3.1)
     sass (3.4.22)
@@ -205,6 +218,9 @@ GEM
     uglifier (2.5.3)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
     web-console (2.0.0.beta3)
       activemodel (~> 4.0)
       binding_of_caller (= 0.7.3.pre1)
@@ -218,6 +234,7 @@ DEPENDENCIES
   autoprefixer-rails
   bootstrap-sass (= 3.2.0.0)
   byebug (= 3.4.0)
+  cloudinary
   coffee-rails (= 4.1.0)
   font-awesome-sass
   guard-minitest (= 2.3.1)

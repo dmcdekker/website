@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dmcdekker
+  api_key: '285851897522197'
+  api_secret: rfBjX-S19HvD4KKt6gl-Fkkmrhw
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dmcdekker
+  api_key: '285851897522197'
+  api_secret: rfBjX-S19HvD4KKt6gl-Fkkmrhw
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dmcdekker
+  api_key: '285851897522197'
+  api_secret: rfBjX-S19HvD4KKt6gl-Fkkmrhw
+  enhance_image_tag: true
+  static_image_support: false
