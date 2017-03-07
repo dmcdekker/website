@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   get  'work/typography' => 'work#typography'
   get  'work/maps' => 'work#maps'
   get  'work/ux' => 'work#ux'
+  get  'work/citizensorg' => 'work#citizensorg'
+  get  'work/4bells' => 'work#4bells'
   get  'work/dmdekker' => 'work#dmdekker'
   
   
