@@ -1,0 +1,29 @@
+/* line 1, /home/ubuntu/workspace/website/app/assets/stylesheets/MarkerCluster.scss */
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+  -webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+  -webkit-transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+}
+
+/* line 8, /home/ubuntu/workspace/website/app/assets/stylesheets/MarkerCluster.scss */
+.leaflet-cluster-spider-leg {
+  /* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+  -webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+  -webkit-transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+  transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
+
+/*Map
+*/
+/* line 19, /home/ubuntu/workspace/website/app/assets/stylesheets/MarkerCluster.scss */
+#mapid {
+  width: 100%;
+  height: 700px;
+}
+
+/* line 24, /home/ubuntu/workspace/website/app/assets/stylesheets/MarkerCluster.scss */
+#page-header {
+  border-bottom: 0px;
+}
