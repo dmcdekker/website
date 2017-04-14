@@ -191,7 +191,7 @@ h5{
   left: 0;
   padding: 50px 20px;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
+  transition: opacity 0.9s, transform 0.9s;
   -webkit-transform: scale(0,1);
   -ms-transform: scale(0,1);
   transform: scale(0,1);
@@ -222,9 +222,8 @@ h5{
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  font-size: 1.5vw;
+  font-size: .2vw;
   letter-spacing: 2px;
-  font-weight: 50;
   background-color: transparent;
   color: #FFF;
   padding: 0em 0;
@@ -234,6 +233,7 @@ h5{
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,-100%,0);
   transform: translate3d(0,-100%,0);
+  
 }
 
 .hovereffect h2 {
@@ -248,7 +248,7 @@ h5{
   transition: opacity 0.35s, transform 0.35s;
   -webkit-transform: translate3d(0,100%,0);
   transform: translate3d(0,100%,0);
-  font-size: 2.7vw;
+  size: 3em;
 }
 
 .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
