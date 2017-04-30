@@ -1,0 +1,311 @@
+/* mixins, variables, etc. */
+/* universal */
+/* line 8, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* line 13, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 18, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+body {
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: white;
+}
+
+/* line 26, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+section {
+  overflow: auto;
+}
+
+/* line 30, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 34, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.center {
+  text-align: center;
+}
+/* line 36, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/* typography */
+/* line 44, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+h1 {
+  font-size: 200%;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Roboto", normal, sans-serif;
+  font-weight: 550;
+}
+
+/* line 52, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+h2 {
+  font-size: 120%;
+  line-height: 150%;
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 61, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+h3 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  color: #262626;
+  text-align: center;
+  font-weight: normal;
+  font-size: 240%;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+/* line 73, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+h4 {
+  font-size: 90%;
+  font-family: "Roboto",sans-serif;
+  line-height: 120%;
+  font-weight: normal;
+  text-align: center;
+  color: #262626;
+  text-transform: uppercase;
+}
+
+/* line 83, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+h5 {
+  font-size: 120%;
+}
+
+/* line 88, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+p {
+  font-size: 110%;
+  font-family: "Open Sans", sans-serif;
+  line-height: 130%;
+  font-weight: 300;
+  text-align: justify;
+  color: #000;
+  color: #262626;
+  margin-bottom: 20px;
+}
+
+/* header */
+/* line 102, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.navbar-default {
+  text-align: center;
+  background-color: white;
+  border-color: white;
+}
+
+/* line 108, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.navbar-collapse.collapse {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+/* line 114, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.navbar-brand a {
+  text-decoration: none;
+  font-size: 1.6em;
+}
+
+/* line 119, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.navbar-collapse {
+  background-color: white;
+  width: 30%;
+  float: right;
+  border: none;
+}
+
+/* line 126, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+ul.navbar-nav.navbar-right a {
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: light;
+  font-size: 80%;
+  letter-spacing: .25px;
+  color: #181818;
+  padding-bottom: .4em;
+  margin-right: 1.75em;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 137, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+ul.navbar-nav.navbar-right a:hover {
+  border-bottom: 3px solid #E86C2E;
+}
+
+/* line 142, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+logo.navbar-brand a {
+  font-size: 115%;
+  color: #181818;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  font-weight: light;
+  letter-spacing: 1px;
+  padding-bottom: .4em;
+}
+/* line 150, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+logo.navbar-brand a:hover {
+  border-bottom: 3px solid #E86C2E;
+}
+
+/* line 155, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a {
+  color: #808080;
+  text-decoration: none;
+}
+/* line 158, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a:hover {
+  color: #a3a3c2;
+}
+
+/* line 163, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+header.navbar.navbar-default.navbar-fixed-top {
+  color: #000;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  height: 60px;
+  border-bottom: 1px solid white;
+}
+
+/* footer */
+/* line 173, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+.footer, .push {
+  height: initial;
+}
+
+/* line 178, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+footer {
+  background-color: white;
+  padding-top: 0px;
+  width: 100%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 186, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+ul.social {
+  padding: 2em;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 193, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+ul.social li {
+  display: inline;
+  margin: .5em;
+}
+/* line 196, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+ul.social li a {
+  color: #000;
+  font-size: 1.4em;
+}
+
+/* line 204, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a i.fa.fa-github.icon-2x:hover {
+  color: #0000ff;
+}
+
+/* line 210, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a i.fa.fa-instagram.icon-2x:hover {
+  color: #ff1aff;
+}
+
+/* line 216, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a i.fa.fa-linkedin.icon-2x:hover {
+  color: #6666ff;
+}
+
+/* line 222, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+a i.fa.fa-twitter.icon-2x:hover {
+  color: #6699ff;
+}
+
+/* line 229, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+p#copyright {
+  padding-bottom: 30px;
+  color: #cccccc;
+  text-align: center;
+  font-size: 0.60em;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*Application
+*/
+@media screen and (max-width: 767px) {
+  /* line 241, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  .navbar .nav-collapse .navbar-right > li:last-child {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 243, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  .navbar .nav-collapse .navbar-form {
+    margin: 0;
+  }
+
+  /* line 244, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  .nav-collapse > li {
+    float: none;
+  }
+
+  /* line 245, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.4em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 252, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.5em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 259, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.6em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 266, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.7em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 275, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.5em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 282, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.6em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 289, /home/ubuntu/workspace/website/app/assets/stylesheets/custom.scss */
+  body {
+    font-size: 1.7em;
+  }
+}
