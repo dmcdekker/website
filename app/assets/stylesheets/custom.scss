@@ -58,8 +58,8 @@ h2 {
 
 
 h3{
-  margin-top: 60px;
-  margin-bottom: 30px;
+  margin-top: 1em;
+  margin-bottom: 2em;
   color: #262626;
   text-align: center;
   font-weight: normal;
@@ -244,6 +244,10 @@ p#copyright{
     body {
         font-size: 1.4em;
     }
+     img.image-responsive{
+      width: 50%;
+      height: 50%;
+    }
 }
 
 /* sm */
@@ -251,6 +255,7 @@ p#copyright{
     body {
         font-size: 1.5em;
     }
+  
 }
 
 /* md */
