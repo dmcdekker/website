@@ -50,7 +50,7 @@ div.row{
     width: 99%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 60px;
+    margin-bottom: 5%;
 }
 
 
@@ -65,11 +65,36 @@ img.image-responsive{
   border-radius:10%;
 }
 
+img.img-responsive{
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width: 50%;
+}
+
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: auto;
     text-decoration: none;
 }
+
+.col-md-3{
+  margin-top: .8em; 
+}
+
+
+.btn-default {
+    color: #fff;
+    background-color: #88B04B;
+    border-color: #ccc;
+    &:hover{
+    color: #88B04B;
+    background-color: #fff;
+    }
+}
+  
+
+
 
 div.col-md-12 p{
   color: #000;
@@ -77,6 +102,14 @@ div.col-md-12 p{
   line-height: 1.90em;
   font-family: "Open Sans", sans-serif;
 }
+
+div.col-md-9 p{
+  color: #000;
+  font-size: 1.0em;
+  line-height: 1.90em;
+  font-family: "Open Sans", sans-serif;
+}
+
 
 #about{
     color: #FF7F1D;
@@ -116,7 +149,6 @@ div.col-md-12 p{
 
 .page-header h3{
   color: #262626;
-  margin-bottom: .2em;
   text-align: center;
   font-weight: normal;
   font-family: "Roboto", sans-serif;

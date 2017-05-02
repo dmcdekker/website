@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   root             'static_pages#home'
   get '/about'   => 'static_pages#about'
   get '/work' => 'static_pages#work'
-  get '/contact' => 'static_pages#contact'
+  get '/resume' => 'static_pages#resume'
   get  'work/sisterweb' => 'work#sisterweb'
   get  'work/typography' => 'work#typography'
   get  'work/maps' => 'work#maps'
