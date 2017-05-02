@@ -41,6 +41,8 @@ h1 {
 }
 
 .page-header{
+  margin-top: .3em;
+  margin-bottom: .5em;
   border-bottom: none;
 }
 
@@ -59,8 +61,8 @@ div.col-md-4{
 
 
 .card-img-top{
-  height: 60%;
-  width: 60%;
+  height: 90%;
+  width: 90%;
 }
 
 
@@ -81,7 +83,10 @@ div.col-md-12 p{
   font-size: 1.0em;
   line-height: 1.90em;
   font-family: "Open Sans", sans-serif;
-  
+}
+
+#about{
+    color: #FF7F1D;
 }
 
 
