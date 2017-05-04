@@ -53,9 +53,6 @@ div.row{
     margin-bottom: 5%;
 }
 
-
-
-
 img.image-responsive{
   margin-bottom: 2em;
   margin-left: auto;
@@ -176,14 +173,26 @@ h5{
   text-decoration: none;
   margin: .2em;
   margin-bottom: 1.4em;
-  border: 1.5px solid #cccccc;
-  
 }
 
 .card-img-top{
   height: 100%;
   width: 100%;
-  border-bottom: 1px solid #cccccc;
+  padding: 0;
+  border-top: 2px solid #595959;
+  border-right: 2px solid #595959;
+  border-left: 2px solid #595959;
+}
+
+.card-block{
+  border-bottom: 2px solid #595959;
+  border-right: 2px solid #595959;
+  border-left: 2px solid #595959;
+}
+
+.card-title{
+  margin-top: 0;
+  padding-top: .6em;
 }
 
 
