@@ -1,0 +1,234 @@
+/* typography */
+/* line 6, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #4d4d4d;
+}
+
+/* line 10, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.page-header {
+  margin-top: .3em;
+  margin-bottom: .5em;
+  border-bottom: none;
+}
+
+/* line 16, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h1 {
+  font-size: 2.0em;
+  margin-bottom: 2em;
+  text-align: center;
+  font-family: "Open Sans", normal, sans-serif;
+  font-weight: bold;
+}
+
+/* line 26, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.intro h2 {
+  color: #262626;
+  font-size: 120%;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+/* line 39, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+h3 {
+  color: #262626;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+/* line 50, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.row {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
+
+/* line 58, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.intro p {
+  font-size: 1.0em;
+  line-height: 1.90em;
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+}
+
+/* line 66, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+img.img-responsive {
+  box-shadow: 0px 0px 15px #cccccc;
+  -moz-box-shadow: 0px 0px 5px #cccccc;
+  -webkit-box-shadow: 0px 0px 5px #cccccc;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+}
+
+/* SisterWeb */
+/* line 81, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.button {
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  text-transform: uppercase;
+}
+
+/* line 89, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+a.button {
+  color: #000;
+  border-radius: 50px;
+  border: 1px solid #000;
+  padding: 7px;
+  background-color: #fff;
+}
+/* line 95, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+a.button:hover {
+  color: #808080;
+  text-decoration: none;
+  border: 1px solid #808080;
+}
+
+/* line 102, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+div.col-lg-6 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Links */
+/* line 111, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+/* line 116, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.left {
+  margin-left: -100px;
+  color: white;
+}
+
+/* line 117, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-control.right {
+  margin-right: -100px;
+  color: white;
+}
+
+/* line 119, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.btn {
+  padding: 2px 6px;
+  font-size: 18px;
+  color: black;
+}
+
+/* line 125, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+button.btn.btn-secondary {
+  float: right;
+  margin-top: .2em;
+  margin-right: 13%;
+}
+/* line 129, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+button.btn.btn-secondary:hover {
+  color: white;
+}
+
+/* line 136, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-inner > .active {
+  left: 0;
+  right: 0;
+}
+
+/* line 142, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.carousel-inner .item img {
+  left: 0;
+  right: 0;
+}
+
+/* line 149, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.modal-backdrop.in {
+  opacity: 0.16 !important;
+}
+
+/* line 153, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+a {
+  color: #808080;
+}
+
+/* line 158, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.modal-content {
+  width: 75%;
+  height: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 166, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 0.9em;
+  }
+}
+/* sm */
+@media screen and (min-width: 768px) {
+  /* line 173, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.2em;
+  }
+}
+/* md */
+@media screen and (min-width: 992px) {
+  /* line 180, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.4em;
+  }
+}
+/* lg */
+@media screen and (min-width: 1200px) {
+  /* line 187, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+  body {
+    font-size: 1.6em;
+  }
+}
+/*Map
+*/
+/* line 195, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.page-header {
+  border-bottom: none;
+  margin-bottom: none;
+}
+
+/* line 200, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+#mapid {
+  width: 70%;
+  height: 50vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 209, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+#page-header {
+  border-bottom: 60px;
+}
+
+/* line 213, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.leaflet-cluster-anim .leaflet-marker-icon, .leaflet-cluster-anim .leaflet-marker-shadow {
+  -webkit-transition: -webkit-transform 0.3s ease-out, opacity 0.3s ease-in;
+  -webkit-transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-in;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-in, -webkit-transform 0.3s ease-out;
+}
+
+/* line 220, /home/ubuntu/workspace/website/app/assets/stylesheets/links.scss */
+.leaflet-cluster-spider-leg {
+  /* stroke-dashoffset (duration and function) should match with leaflet-marker-icon transform in order to track it exactly */
+  -webkit-transition: -webkit-stroke-dashoffset 0.3s ease-out, -webkit-stroke-opacity 0.3s ease-in;
+  -webkit-transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+  transition: stroke-dashoffset 0.3s ease-out, stroke-opacity 0.3s ease-in;
+}
