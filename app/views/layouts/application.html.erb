@@ -2,13 +2,18 @@
 <html lang='en'>
   <head>
     <title><%= full_title(yield(:title)) %></title>
+    
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>  
+  
     <%= stylesheet_link_tag "application", media: "all",
                                            "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     <%= render 'layouts/shim' %>
-  
-
       <meta charset="utf-8">
         <meta content="IE=edge" http-equiv="X-UA-Compatible">
           <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -23,7 +28,6 @@
           </meta>
         </meta>
       </meta>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
   </head>
   <body>
