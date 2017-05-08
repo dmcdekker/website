@@ -117,6 +117,7 @@ p {
 .navbar-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
+    
 }
 
 .navbar-brand a{
@@ -126,18 +127,21 @@ p {
 
 .navbar-collapse {
   background-color: white;
-  width: 40%;
+  width: 30%;
   float: right;
   border: none;
 }
 
-ul.navbar-nav a{
+.navbar-default .navbar-nav > li > a {
+    color: #181818;
+}
+
+ul.navbar-nav.navbar-right a{
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: light;
-  font-size: 80%;
+  font-size: 90%;
   letter-spacing: .25px;
-  color: #181818;
   padding-bottom: .4em;
   margin-right: 1.75em;
   padding-left: 0;
@@ -149,7 +153,7 @@ ul.navbar-nav a{
 
 logo.navbar-brand a{
   font-size: 115%;
-  color: #181818;
+  color: #181818 ;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   font-weight: light;
@@ -160,6 +164,19 @@ logo.navbar-brand a{
   }
 }
 
+
+
+
+
+
+a {
+    color: #808080;
+    text-decoration: none;
+    &:hover {
+    color: #a3a3c2;
+  }
+}
+
 header.navbar.navbar-default.navbar-fixed-top{
   color: #000;
   margin-bottom: 0px;
@@ -167,8 +184,6 @@ header.navbar.navbar-default.navbar-fixed-top{
   height: 60px;
   border-bottom: 1px solid white;
 }
-
-
 
 /* footer */
 
@@ -240,7 +255,9 @@ p#copyright{
 /*Application
 */
 @media screen and (max-width: 767px) {
- 
+  .navbar .nav-collapse .navbar-right > li:last-child { padding-left: 15px; padding-right: 15px; } 
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
     body {
         font-size: 1.4em;
     }
