@@ -142,7 +142,9 @@ ul.navbar-nav a{
   margin-right: 1.75em;
   padding-left: 0;
   padding-right: 0;
- 
+  &:hover {
+    border-bottom: 3px solid #E86C2E;
+  }
 }
 
 logo.navbar-brand a{
@@ -153,7 +155,9 @@ logo.navbar-brand a{
   font-weight: light;
   letter-spacing: 1px;
   padding-bottom: .4em;
- 
+  &:hover {
+    border-bottom: 3px solid #E86C2E;
+  }
 }
 
 header.navbar.navbar-default.navbar-fixed-top{
