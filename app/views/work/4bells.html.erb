@@ -17,7 +17,9 @@
                 <h2>Product Manager Intern</h2>     
                     <p>4Bells is a first responder mobile application from Caravan Studios. 4Bells matches volunteers with time-sensitive tasks, like delivering important documents, picking up a dog from the pound, or deploying volunteers after a disaster. 
                     It enables group leaders to connect easily with volunteers, create tasks, and monitor who has signed up to complete tasks. As the Product Developer intern, my job was to redesign the UI and improve app functionality.
-                    In addition, Caravan Studios wanted the app to incorporate web accessibility features. 
+                    In addition, Caravan Studios wanted the app to incorporate web accessibility features.
+                    <br>
+
             
                     </p>
               <br>        
@@ -25,15 +27,32 @@
                 <h2>Challenges</h2>
                     <p>Because the color palette was already established, working with accessibility guidelines for the first time was challenging. 
                     During the design process, I had to figure out how to keep the original colors while simultaneously allowing for sufficent contrast. Unfortunately,
-                    many of the colors had to change to meet WCAG guidelines; fortunately, the WCAG website has many wonderful tools that make selecting the right colors easy.
-                    One of the ways I resolved not having to change everything was to put a box with a lighter color around text areas. 
+                    many of the colors had to change to meet WCAG guidelines; fortunately, the WCAG website has many wonderful tools that make selecting the right contrast easy.
+                    One of the ways I resolved not having to radically change the design was to put a box with a lighter color around text areas. Also, Adobe XD does not allow for global 
+                    changes to color, so when a color needed to be changed, every item had to be changed.
                     </p>
               <br>
                 <h2>Process</h2>
                 <p>I began with personas and use models to ensure that I thoroughly understood the app, its capabilities, and audience. Because Caravan want the app to 
                 meet Web Accessibility standards, I read and studied material online and found the BBC guidelines for mobile application development the most comprehensive
-                and helpful.
-                <br>
+                and helpful.</p>
+               
+                <p>Next, I evaluated 4Bells using heuristics and accessibility recommendations and pinpointed the components that needed to change:<br>
+                  • Button placement and color.<br>
+                  • Change button color to indicate change.<br>
+                  • Add ability to click through items and not only swipe.<br>
+                  • Contrast between font and background color.<br>
+                  • Simple prompts: enable pop-ups with feedback and tips.<br>
+                  • Give user visual hint of orientation.<br>
+                  • More direction given to user, both pop-ups and funneling.<br>
+                  • Use of help menu to provide more support to user.<br>
+                  • Separation of screens to make information clearer.<br>
+                  • More intuitive top-level information hierarchy.<br>
+                  • Clearer delineation of routes to action.<br>
+                  • Funnel user through logical sequence of events.<br>
+                  • Not allow user to navigate away while mid-task.<br>
+                  • Logical tab order.<br>
+                </p>
                 <p>
                 For example, the original UI looked like this. </p>
                 <div class="container-fluid"
@@ -44,30 +63,35 @@
                             <div class="col-xs-6 col-lg-4">
                                 <img src="http://res.cloudinary.com/dmcdekker/image/upload/v1488926177/task2_dzpsy0.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" size: "60%">
                             </div>
-                            
+      
                         </div>
 
     
                     <p>The new UI has clear tabs for each task category with no swiping/sliding and all task categories are displayed clearly. Tabs change color when pressed from a white text
                     with gray background to a white text on black background and orange stripe. Also, if the task in the open section is clicked on, the color will change, giving
-                    the user feedback. A menu item, with links to tips, is now on the top right hand corner. Also, the bottom navigation bar now has words instead of nebulous icons, creating clarity for the user;
+                    the user feedback. A menu item, with a link to help, is now on the top right hand corner. Also, the bottom navigation bar now has words instead of nebulous icons, creating clarity for the user;
                      in addition, the buttons at the bottom of the screen change color to show the user which screen they are in.</p>
                 
                 <div class="container-fluid"
-                       <div class="row">
-                            <div class="col-xs-6 col-lg-4">
-                                <img src="https://res.cloudinary.com/dmcdekker/image/upload/v1492137664/approved_tasks_nonotify_-_3_-_3_rzr6sp.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" size: "60%"></a>
-                            </div>
-                            <div class="col-xs-6 col-lg-4">
-                                <img src="https://res.cloudinary.com/dmcdekker/image/upload/v1492137673/approved_claimed_tasks_nonotify_-_3_-_4_2x_ha5pzy.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" size: "60%"></a>
-                            </div>
-                            <div class="col-xs-6 col-lg-4">
-                                <img src="http://res.cloudinary.com/dmcdekker/image/upload/v1492137670/approved_closed_tasks_nonotify_-_3_-_5_2x_vkggvw.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" ></a>
-                            </div>
-            
+                   <div class="row">
+                        <div class="col-xs-6 col-lg-4">
+                            <img src="https://res.cloudinary.com/dmcdekker/image/upload/v1492137664/approved_tasks_nonotify_-_3_-_3_rzr6sp.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" size: "60%"></a>
+                        </div>
+                        <div class="col-xs-6 col-lg-4">
+                            <img src="https://res.cloudinary.com/dmcdekker/image/upload/v1492137673/approved_claimed_tasks_nonotify_-_3_-_4_2x_ha5pzy.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" size: "60%"></a>
+                        </div>
+                        <div class="col-xs-6 col-lg-4">
+                            <img src="http://res.cloudinary.com/dmcdekker/image/upload/v1492137670/approved_closed_tasks_nonotify_-_3_-_5_2x_vkggvw.png" data-toggle="modal" data-target="#myModal" class="thumbnail img-responsive" ></a>
+                        </div>
                 </div>
+                <br>
+               <div class="container-fluid"     
+                   <div class="row">
+                       <p>If you would like to see more examples of my work from this project at Caravan Studios, please contact <a href="mailto:denise@dmdekker.io" id="lnkMail">me</a>.</p>
+                   </div> 
+               </div>
+            
                         
-                
               <h2>Tools Used</h2>
                     <p>Adobe XD, Axure.</p>
             <br>
