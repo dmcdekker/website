@@ -291,7 +291,7 @@ img.image-responsive{
 }
 
 
-/*.animate {
+.animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
@@ -327,13 +327,13 @@ animation-delay: 1.3s;
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
-*/
+
 
 .col-xs-6 .col-lg-6{
   float: left;
 }
 
-/*=== FADE IN DOWN ===
+/*=== FADE IN DOWN ===*/
 @-webkit-keyframes fadeInDown {
   from {
     opacity: 0;
@@ -367,7 +367,7 @@ animation-delay: 1.3s;
   animation-name: fadeInDown;
 }
 
-*/
+
 
 
 @media screen and (max-width: 767px) {
