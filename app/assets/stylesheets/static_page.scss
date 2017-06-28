@@ -95,6 +95,7 @@ a:-webkit-any-link {
 
 
 div.col-md-12 p{
+  top: 0;
   color: #000;
   font-size: 1.0em;
   line-height: 1.90em;
@@ -152,8 +153,8 @@ div.col-md-9 p{
   font-family: "Roboto", sans-serif;
   letter-spacing: 1.5px;
   margin-bottom: 0;
+  bottom:0;
 }
-
 
 
 h5{
