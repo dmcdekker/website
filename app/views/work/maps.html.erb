@@ -4,7 +4,6 @@
     <% provide(:title, "Maps") %>
     <%= stylesheet_link_tag "links", media: "all",
                                            "data-turbolinks-track" => true %>
-    <%= javascript_include_tag "MarkerCluster", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
     
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
@@ -2753,7 +2752,7 @@
 
     L.control.layers(planes).addTo(mymap);
     
-    var markers = new L.MarkerClusterGroup();
+    
 
     markers.addLayer(L.marker(L.marker([planes[i][1],planes[i][2]]);
 // add more markers here...
@@ -2762,9 +2761,11 @@
         
     </script>
     
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    
    </body>
- <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
- <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+ 
  
 </html>   
     
