@@ -164,8 +164,8 @@ h5{
   font-family: "Roboto", sans-serif;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 25px;
+  margin-top: 1em;
+  margin-bottom: 2em;
   letter-spacing: 1px;
   text-decoration: none;
   text-align: center;
@@ -288,6 +288,8 @@ h5{
 
 
 img.image-responsive{
+  margin-top: .7em;
+  margin-bottom: 3em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -383,6 +385,10 @@ animation-delay: 1.3s;
     .hovereffect p{
       font-size: 100%;
     }
+     h5{
+      margin-top: 1em;
+      margin-bottom: 0em;
+    }
     
 }
 
@@ -400,6 +406,8 @@ animation-delay: 1.3s;
       font-size: 140%;
       text-align: center;
     }
+   
+  
 }
 
 /* md */
@@ -416,5 +424,6 @@ animation-delay: 1.3s;
         font-size: 150%;
         height: 100vh;
     }
+    
 }
 
