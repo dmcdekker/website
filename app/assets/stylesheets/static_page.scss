@@ -89,6 +89,11 @@ a:-webkit-any-link {
     color: #88B04B;
     background-color: #fff;
     }
+    &:focus{
+    outline:0;
+    color: #88B04B;
+    background-color: #fff;
+    }
 }
   
 
