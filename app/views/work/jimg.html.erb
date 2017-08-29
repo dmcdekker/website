@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <% provide(:title, "Jim Granato") %>  
+    <%= stylesheet_link_tag "links", media: "all",
+                                           "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    <%= csrf_meta_tags %>
+    
+  
+  </head>
+  <body>
+      <div class="container">
+          <div class="page-header">
+            <h3>Jim Granato</h3>
+          </div>
+        <div class="row">
+            <div class="intro">
+                <h2>Project</h2>     
+                    <p>As an independent filmmaker, Jim wanted an updated, more modern looking site that presented his work using clean and organized design. He wanted to
+                     curate his best work on the website, so he could use it as an online professional resume. </p>
+                  
+            <br>
+                
+                <h2>Challenges</h2>
+                    <p>For the portfolio, which is a lightbox, there was a problem with the embedded content not closing completely;
+                    unfortunately, the sound would continue to play and the only way to stop it was to refresh the browser. After some research, I added some javascript to
+                     completely close the modal. Also with the modal, I couldn't figure out how to keep the focus on the menu items on the portfolio page; apparently
+                      it's a known issue with modals and also an accessibility issue. In the end, I had to let it go!
+                    </p>
+    
+            <br>
+                <h2>Tools Used</h2>
+                    <p>Bootstrap, Node.js, Express, jQuery</p>
+            <br>
+                <h2>Final Result</h2>
+                    <p>I think that the final result looks good; I'm happy with the overall appearance. My next goal is to make a template for the portfolio page, as there's way too much code in there (currently learning React!).</p>
+                    <div class="col-lg-12">
+                        <div class="col-lg-6"> 
+                            <img src="/assets/jim_home.png" alt="mobile view of home" class="img-responsive" data-holder-rendered="true" style="height: 90%; width: 90%;  display: block;"> 
+                        </div>
+                        <div class="col-lg-6"> 
+                            <img src="/assets/jim_dtour.png" alt="mobile view of dtour page" class="img-responsive" data-holder-rendered="true" style="height: 90%; width: 90%;  display: block;"> 
+                        </div>
+                        <div class="col-lg-6"> 
+                            <img src="/assets/jim_about.png" alt="mobile view of about" class="img-responsive" data-holder-rendered="true" style="height: 90%; width: 90%;  display: block;"> 
+                        </div>
+                        <div class="col-lg-6"> 
+                            <img src="/assets/jim_portfolio.png" alt="mobile view of portfolio" class="img-responsive" data-holder-rendered="true" style="height: 90%; width: 90%;  display: block;"> 
+                        </div>
+                    </div>
+            </div>        
+            <br>
+            <br>    
+            <br>
+            <br>
+            <div class="col-lg-12"> 
+                <div class="button">
+                    <a class="button" href="http://www.jimgranato.com/" title="Jim G" target="_blank">Visit Website <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span></a>
+                </div>
+            </div>    
+        
+      
+               
+                        
+        
+                
+        </div>
+     </div> 
+ </body>
+</html> 
+  
+  

@@ -142,11 +142,11 @@ ul.navbar-nav.navbar-right a{
   font-size: 90%;
   letter-spacing: .25px;
   padding-bottom: .4em;
-  margin-right: 1.75em;
-  padding-left: 0;
-  padding-right: 0;
-  &:hover {
-    border-bottom: 3px solid #E86C2E;
+  padding-left: .4em;
+  padding-right: .4em;
+  margin-right: 1.5em;
+  &:hover{
+    border-bottom: 3.5px solid #E86C2E;
   }
 }
 
@@ -158,14 +158,12 @@ logo.navbar-brand a{
   font-weight: light;
   letter-spacing: 1px;
   padding-bottom: .4em;
+  padding-left: .4em;
+  padding-right: .4em;
   &:hover {
-    border-bottom: 3px solid #E86C2E;
+    border-bottom: 3.5px solid #E86C2E;
   }
 }
-
-
-
-
 
 
 a {
